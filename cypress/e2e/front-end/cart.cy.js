@@ -15,5 +15,5 @@ describe('Cart feature', () => {
         cy.get('.success > :nth-child(4) > a').click();
         cy.get('.success > :nth-child(1) > img').should('not.exist');
         cy.screenshot();
-    });
+    });   
 });
